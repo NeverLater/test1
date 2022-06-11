@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v3.3.0
         
       - name: Step build  
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
